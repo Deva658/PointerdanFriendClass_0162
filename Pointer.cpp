@@ -13,7 +13,7 @@ class Staf{
     int nidn;
 };
 int main (){
-    Dosen ds;
+    dosen ds;
     ds.nama = "Giga";
     ds.tampilNama();
 
@@ -26,4 +26,12 @@ int main (){
     pds->nama = "Reza";
     cout << "Alamatnya memori" << pds << endl;
     pds->tampilNama();
+
+    int a = 5;
+    int b = 3;
+    int *c = &a;
+    *c = 9;
+    cout << endl;
+    cout << a << endl;
+    
 }
