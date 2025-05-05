@@ -1,18 +1,10 @@
 #include <iostream>
 using namespace std;
-class Dosen{
+
+class dosen{
     public:
     string nama;
     void tampilNama(){
-        cout << "Namanya adalah " << nama << endl;
+        cout << "Namanya adalah " << nama << endl ;
     }
 };
-class Staff{
-    public:
-    int nidn;
-};
-int main (){
-    Dosen ds;
-    ds.nama = "Giga";
-    ds.tampilNama();
-}
